@@ -1,0 +1,31 @@
+
+### Post animal
+POST http://localhost:8080/Animal
+Content-Type: application/json
+
+{
+
+  "name": "Giraffe",
+  "weight": 2,
+  "age": 16
+}
+
+
+
+
+### Remove animal
+POST http://localhost:8080/removeAnimal/{id}
+
+### Feed animal
+POST http://localhost:8080/Animals/feed/{id}
+
+
+### Get all the animals
+GET http://localhost:8080/Animals
+
+
+
+
+### Get animals filtered by name
+GET http://localhost:8080/Animals/FilterByName/{AnimalName}
+

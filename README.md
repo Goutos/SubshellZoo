@@ -9,14 +9,15 @@ This application is about a Zoo where the user can:
 - Get a list of animals filtered by name
 - Feed an animal (Increase it's weight)
 
-### JDK version
-The application makes use of OpenJDK-22
+### JDK and Build Tool
+The application makes use of OpenJDK-22 and Maven.
+Before running the application you need to run `mvn clean install`
 
 ## How to test the API:
 You can test all endpoints using Postman/Insomnia or any other Api testing platform of your choice.
 
 For simplicity reasons I've included a http file under:
-/main/resources/generated-requests.http
+_**/main/resources/generated-requests.http**_
 
 Make sure the application is running on port 8080 or modify the url to the port that you're using.
 
